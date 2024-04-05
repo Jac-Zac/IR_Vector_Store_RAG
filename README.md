@@ -28,7 +28,7 @@ git clone https://github.com/Jac-Zac/FFF && cd FFF
 
 ```bash
 python -m venv .env
-source .env/bin/active
+source .env/bin/activate
 ```
 
 #### Install dependencies
