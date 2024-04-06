@@ -31,6 +31,9 @@ python -m venv .env
 source .env/bin/activate
 ```
 
+> If you are having problems with jupyter
+> `ipython kernel install --name "local-venv-kernel" --user`
+
 #### Install dependencies
 
 ```bash
