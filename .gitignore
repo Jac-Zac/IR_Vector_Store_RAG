@@ -1,3 +1,4 @@
 TIME*
 .env
 vector_store/**
+.ipynb_checkpoint/**
