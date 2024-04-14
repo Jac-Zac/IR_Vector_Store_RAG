@@ -41,3 +41,8 @@ pip install -r requirements.txt
 ```
 
 #### I have to check if I get them in reverse but it is working !!!!
+
+### Data for RAG
+
+- https://arxiv.org/pdf/2201.02177.pdf
+- https://arxiv.org/pdf/1706.03762.pdf
