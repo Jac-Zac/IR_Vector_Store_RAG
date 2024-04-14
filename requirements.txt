@@ -4,4 +4,5 @@ sentence_transformers
 einops
 ipywidgets
 ipykernel
-PyPDF2
+pypdf
+ollama
