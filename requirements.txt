@@ -2,6 +2,5 @@ numpy
 pandas
 sentence_transformers
 einops
-termcolor
 ipywidgets
 ipykernel
