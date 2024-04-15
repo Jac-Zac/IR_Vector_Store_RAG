@@ -2,7 +2,7 @@
 
 ### Summary
 
-This is a simple python implementation of a vector store that showcase the ability to use an embedding model to store documents in an high dimensional vector space, and do similarity search to retrieve the most relevant documents.
+This is a simple python implementation of a vector store that showcase the ability to use an embedding model to store documents in an high dimensional vector space, and do similarity search to retrieve the most relevant documents. Furthermore it showcase how this can then be used to do RAG with an LLM like mistral without the need of libraries like Langchain or LlamaIndex
 
 ### Description of the directory
 
@@ -10,18 +10,18 @@ Everything relevant to the implementation is explained and implemented inside a 
 
 ### Installation
 
-- Install [Ollama](https://ollama.com/)
+- Install [Ollama](https://ollama.com/) for the RAG
 
 - Install the model we are using:
 
 ```bash
-ollama pull nomic-embed-text
+ollama pull mistral
 ```
 
 #### Clone the repo and move inside it
 
 ```bash
-git clone https://github.com/Jac-Zac/FFF && cd FFF
+git clone https://github.com/Jac-Zac/IR_Vector_Store_RAG && cd https://github.com/Jac-Zac/IR_Vector_Store_RA
 ```
 
 ##### Set up a Python virtual environment
@@ -39,8 +39,6 @@ source .env/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
-#### I have to check if I get them in reverse but it is working !!!!
 
 ### Data for RAG
 
